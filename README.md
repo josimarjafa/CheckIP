@@ -1,5 +1,7 @@
 # DynDNS.com CheckIP in golang by Josimar Andrade
 
+For test: http://67.205.183.189:82
+
 DynDNS.com runs a simple web service for detecting a user's remote IP address called
 You can demo the web service at http://checkip.dyndns.com/
 

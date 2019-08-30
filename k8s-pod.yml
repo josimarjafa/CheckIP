@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: checkip
+  labels:
+    language: go
+    env: test
+spec:
+  containers:
+  - image: checkip:1
+    name: checkip
+    ports:
+    - containerPort: 8080
+      protocol: TCP
